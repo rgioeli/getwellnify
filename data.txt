@@ -1,0 +1,130 @@
+A:
+
+Asthma - A chronic respiratory condition characterized by difficulty breathing due to inflammation and narrowing of the airways.
+Alzheimer's disease - A progressive neurological disorder causing memory loss and cognitive decline.
+Anemia - A condition characterized by a deficiency of red blood cells or hemoglobin in the blood, leading to fatigue and weakness.
+B:
+
+Bronchitis - Inflammation of the bronchial tubes, often resulting in coughing and difficulty breathing.
+Bipolar disorder - A mental disorder characterized by extreme mood swings, including episodes of mania and depression.
+Breast cancer - Cancer that develops in the breast tissue, often resulting in the formation of a lump or mass.
+C:
+
+Cataracts - Clouding of the lens in the eye, leading to blurred vision.
+Crohn's disease - A chronic inflammatory bowel disease that affects the lining of the digestive tract.
+Chronic kidney disease - Progressive and irreversible damage to the kidneys, often leading to kidney failure.
+D:
+
+Diabetes - A metabolic disorder characterized by high blood sugar levels due to insufficient insulin production or resistance.
+Depression - A mental health condition characterized by persistent feelings of sadness, hopelessness, and a loss of interest in activities.
+Dermatitis - Inflammation of the skin, often resulting in redness, itching, and rash.
+E:
+
+Epilepsy - A neurological disorder characterized by recurrent seizures or convulsions.
+Endometriosis - A disorder in which tissue that normally lines the uterus grows outside of it, causing pain and fertility issues.
+Eczema - A chronic skin condition characterized by dry, itchy, and inflamed patches of skin.
+F:
+
+Fibromyalgia - A chronic pain disorder characterized by widespread musculoskeletal pain, fatigue, and tenderness.
+Food poisoning - Illness caused by consuming contaminated food or drink, leading to symptoms such as nausea, vomiting, and diarrhea.
+Fracture - A break or crack in a bone, often caused by trauma or excessive force.
+G:
+
+Glaucoma - A group of eye conditions that damage the optic nerve, often leading to vision loss and blindness.
+Gastroenteritis - Inflammation of the stomach and intestines, typically causing diarrhea, vomiting, and abdominal pain.
+Gout - A form of arthritis characterized by severe pain, swelling, and tenderness in the joints, often affecting the big toe.
+H:
+
+Hypertension - High blood pressure, a condition that increases the risk of heart disease, stroke, and other complications.
+Heart failure - A chronic condition in which the heart is unable to pump enough blood to meet the body's needs.
+Hepatitis - Inflammation of the liver, often caused by viral infection, excessive alcohol consumption, or autoimmune disorders.
+I:
+
+Influenza - A viral infection affecting the respiratory system, commonly known as the flu.
+Irritable bowel syndrome (IBS) - A gastrointestinal disorder characterized by abdominal pain, bloating, and changes in bowel habits.
+Impetigo - A highly contagious bacterial skin infection, resulting in the formation of red sores or blisters.
+J:
+
+Jaundice - Yellow discoloration of the skin and eyes, often caused by liver disease, certain medications, or excessive breakdown of red blood cells.
+Juvenile diabetes - Type 1 diabetes that develops in childhood or adolescence, requiring lifelong insulin treatment.
+Joint pain - Pain or discomfort in one or more joints, often associated with arthritis or other inflammatory conditions.
+K:
+
+Kidney stones - Hard deposits that form in the kidneys, often causing severe pain and potential blockage of the urinary tract.
+Keratitis - Inflammation of the cornea, resulting in eye pain, redness, and vision disturbances.
+Kawasaki disease - A rare childhood illness that causes inflammation in the blood vessels, primarily affecting young children.
+L:
+
+Leukemia - Cancer of the blood cells, leading to the overproduction of abnormal white blood cells.
+Lyme disease - A tick-borne illness caused by the bacterium Borrelia burgdorferi, resulting in flu-like symptoms and, if left untreated, potential complications.
+Lupus - A chronic autoimmune disease that causes inflammation and damage to various organs and tissues.
+M:
+
+Migraine - A neurological disorder characterized by recurring moderate to severe headaches, often accompanied by nausea, vomiting, and sensitivity to light and sound.
+Multiple sclerosis - A chronic autoimmune disease that affects the central nervous system, causing communication problems between the brain and the rest of the body.
+Myocardial infarction - Also known as a heart attack, it occurs when blood flow to the heart muscle is blocked, resulting in tissue damage.
+N:
+
+Narcolepsy - A neurological disorder characterized by excessive daytime sleepiness and sudden attacks of sleep.
+Osteoporosis - A condition characterized by weak and brittle bones, increasing the risk of fractures.
+Nasal congestion - Blockage of the nasal passages, often caused by allergies, infections, or sinus problems.
+O:
+
+Obesity - Excessive accumulation of body fat, often associated with a higher risk of various health conditions, including heart disease, diabetes, and certain cancers.
+Osteoarthritis - The most common form of arthritis, characterized by the breakdown and eventual loss of cartilage in the joints.
+Ovarian cancer - Cancer that begins in the ovaries, often leading to abdominal or pelvic pain, bloating, and changes in urinary or bowel habits.
+P:
+
+Pneumonia - Infection that inflames the air sacs in one or both lungs, leading to symptoms such as cough, fever, and difficulty breathing.
+Parkinson's disease - A progressive neurological disorder that affects movement, causing tremors, stiffness, and balance problems.
+Psoriasis - A chronic autoimmune disease characterized by red, scaly patches of skin, often accompanied by itching and pain.
+Q:
+
+Quadriplegia - Paralysis of all four limbs and usually the torso, typically caused by spinal cord injury or disease.
+Quickening of pregnancy - The first movements of the fetus felt by the pregnant woman.
+Quinsy - An abscess formed between the tonsils and the wall of the throat, often causing severe sore throat, difficulty swallowing, and fever.
+R:
+
+Rheumatoid arthritis - A chronic inflammatory disorder that primarily affects the joints, causing pain, swelling, and stiffness.
+Rosacea - A chronic skin condition that causes redness, flushing, and visible blood vessels on the face.
+Renal failure - The inability of the kidneys to adequately filter waste products from the blood, resulting in a buildup of toxins and fluid imbalances.
+S:
+
+Schizophrenia - A chronic mental disorder characterized by abnormal interpretations of reality, hallucinations, and disorganized thinking.
+Stroke - A medical emergency caused by interrupted blood flow to the brain, leading to brain damage and potential disability.
+Sinusitis - Inflammation of the sinuses, often resulting in facial pain, pressure, nasal congestion, and headache.
+T:
+
+Tuberculosis - An infectious bacterial disease that primarily affects the lungs, causing persistent cough, weight loss, and fatigue.
+Type 2 diabetes - A metabolic disorder characterized by high blood sugar levels due to insulin resistance and inadequate insulin production.
+Tonsillitis - Inflammation of the tonsils, causing a sore throat, difficulty swallowing, and swollen lymph nodes in the neck.
+U:
+
+Urinary tract infection (UTI) - Infection in any part of the urinary system, typically causing symptoms such as frequent urination, pain or burning during urination, and cloudy or bloody urine.
+Ulcerative colitis - A chronic inflammatory bowel disease that causes inflammation and ulcers in the colon and rectum, leading to abdominal pain and bloody diarrhea.
+Uterine fibroids - Noncancerous growths that develop in the uterus, often resulting in heavy menstrual bleeding, pelvic pain, and increased urination.
+V:
+
+Varicose veins - Enlarged and twisted veins, usually in the legs, that can cause pain, swelling, and aching.
+Vertigo - A sensation of spinning or dizziness, often caused by problems in the inner ear or the brain.
+Viral gastroenteritis - Inflammation of the stomach and intestines caused by a viral infection, resulting in symptoms such as nausea, vomiting, and diarrhea.
+W:
+
+Whooping cough - A highly contagious respiratory infection characterized by severe coughing fits, followed by a "whooping" sound during inhalation.
+Wilson's disease - A rare inherited disorder that causes the accumulation of copper in the body, leading to liver and neurological problems.
+West Nile virus - A mosquito-borne virus that can cause fever, headache, body aches, and potentially severe neurological complications.
+X:
+
+Xerostomia - Dry mouth, often caused by reduced saliva production, medications, or certain medical conditions.
+X-ray - A diagnostic imaging technique that uses ionizing radiation to create images of the internal structures of the body.
+Xenophobia - An irrational fear or dislike of people from other countries or cultures.
+Y:
+
+Yellow fever - A viral infection transmitted by mosquitoes, causing fever, jaundice, and potentially fatal complications.
+Yeast infection - An overgrowth of the Candida fungus, typically causing itching, redness, and discomfort in the affected area.
+Yin and yang imbalance - A concept from traditional Chinese medicine referring to an imbalance between opposing forces, believed to cause health issues.
+Z:
+
+Zika virus - A mosquito-borne virus that can cause mild to severe symptoms, including fever, rash, joint pain, and birth defects in babies born to infected mothers.
+Zinc deficiency - A condition characterized by inadequate levels of zinc in the body, potentially leading to growth retardation, weakened immune function, and other health problems.
+Zoonosis - An infectious disease that can be transmitted between animals and humans, such as rabies or Lyme disease.
