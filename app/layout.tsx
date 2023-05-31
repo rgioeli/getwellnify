@@ -4,6 +4,7 @@ import CreateAPost from "@/components/client/CreateAPost";
 import EditAPost from "@/components/client/EditAPost";
 import ReplyToUser from "@/components/client/ReplyToUser";
 import EditAComment from "@/components/client/EditAComment";
+import DeleteModal from "@/components/client/DeleteModal";
 
 const roboto = Roboto({
   weight: ["400", "500", "700"],
@@ -29,6 +30,7 @@ export default function RootLayout({
         <EditAPost />
         <EditAComment />
         <ReplyToUser />
+        <DeleteModal />
       </body>
     </html>
   );

@@ -35,8 +35,13 @@ export default function PostTemplate({
   //* When we "Hide Replies", we don't want to show the same chat dots icon that fetches comments 'IF' we have comments.
   //* - We want to show a chat dots button that just toggles the display of the content
   return (
-    <div>
-      <div className="flex p-3">
+    <div
+      className={`${
+        uid === post.user.id &&
+        "bg-gradient-to-r from-[#eef8f8] to-[#ceeaec] rounded-md rounded-l-none"
+      } flex p-3 mt-3`}
+    >
+      <div className="flex p-3 w-full">
         <div className="pr-3 rounded-full">
           <Image
             src={post.user.image}

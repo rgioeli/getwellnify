@@ -43,7 +43,7 @@ const Post: NextPage<PostType> = ({ post, uid }) => {
   }, [data]);
 
   return (
-    <>
+    <div className="border-l-2 border-slate-100">
       <PostTemplate
         uid={uid}
         children={
@@ -58,7 +58,7 @@ const Post: NextPage<PostType> = ({ post, uid }) => {
         setShowingReplies={setShowingReplies}
         comments={comments}
       />
-    </>
+    </div>
   );
 };
 
@@ -86,7 +86,6 @@ function CommentList({
 }
 
 function Comment({ comment, uid }: { comment: any; uid: string }) {
-  console.log(comment);
   //usestate
   const [localComments, setLocalComments] = useState<any[]>([]);
   const [showingReplies, setShowingReplies] = useState<boolean>(false);
@@ -144,7 +143,13 @@ function Comment({ comment, uid }: { comment: any; uid: string }) {
 
   return (
     <>
-      <li className="flex p-3 mt-3">
+      <li
+        className={`${
+          uid === comment.user.id
+            ? "bg-gradient-to-r from-[#eef8f8] to-[#ceeaec]"
+            : "bg-white"
+        } flex p-3 mt-3 border-l-2 border-slate-100 rounded-md rounded-l-none`}
+      >
         <div className="pr-3 rounded-full">
           <Image
             src={comment.user.image}
@@ -178,7 +183,7 @@ function Comment({ comment, uid }: { comment: any; uid: string }) {
                 {heartFilled ? (
                   <BsHeartFill size={21} color={"#BD0553"} />
                 ) : (
-                  <BsHeart size={21} color={"#BD0553"} />
+                  <BsHeart size={21} />
                 )}
                 <span>{comment.likesCount + increment}</span>
               </button>

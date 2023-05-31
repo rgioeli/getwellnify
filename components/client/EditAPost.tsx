@@ -35,7 +35,9 @@ export default function EditAPost() {
   };
 
   useEffect(() => {
-    console.log(data);
+    if (data.success) {
+      setEditPost({ toggle: false, postId: undefined, postContent: undefined });
+    }
   }, [data]);
 
   useEffect(() => {
@@ -74,6 +76,7 @@ export default function EditAPost() {
               text="Submit Edit"
               addedIcon={<BsSend size={21} />}
               type="submit"
+              disabled={loading}
             />
           </form>
         </div>

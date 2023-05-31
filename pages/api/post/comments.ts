@@ -43,24 +43,6 @@ export default async function handler(
         },
       });
 
-      // const incrementedReplyCountForPost = await prisma.post.update({
-      //   where: {
-      //     id: postId,
-      //   },
-      //   data: {
-      //     replyCount: {
-      //       increment: 1,
-      //     },
-      //   },
-      // });
-
-      // if (!incrementedReplyCountForPost) {
-      //   throw {
-      //     success: false,
-      //     message: "Unable to increment the replyCount on post.",
-      //   };
-      // }
-
       return res.status(200).json({ success: response, message: "Success" });
     } else {
       if (parentId) {
@@ -82,6 +64,7 @@ export default async function handler(
                 username: true,
               },
             },
+            Like: true,
           },
         });
 

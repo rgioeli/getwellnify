@@ -28,14 +28,27 @@ export default function ReplyToUser() {
   };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    console.log("REPLY TO USER", replyToUser);
     e.preventDefault();
     execute({
       postId: replyToUser.postId,
       content: textareaRef.current?.value,
       channel: replyToUser.channel,
-      parentId: undefined,
+      parentId: replyToUser.parentId,
     });
   };
+
+  useEffect(() => {
+    if (data.success) {
+      setReplyToUser({
+        toggle: false,
+        postId: undefined,
+        channel: undefined,
+        replyContent: undefined,
+        replyingTo: undefined,
+      });
+    }
+  }, [data]);
 
   useEffect(() => {
     return () => controller.abort();
@@ -77,6 +90,7 @@ export default function ReplyToUser() {
               placeholder={`Replying to ${replyToUser.replyingTo?.username}`}
             ></textarea>
             <CustomButton
+              disabled={loading}
               text="Submit Reply"
               addedIcon={<BsSend size={21} />}
               type="submit"

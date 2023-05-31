@@ -10,12 +10,12 @@ export default async function handler(
     const { postId, content, channel, parentId } = req.body;
     const { success, message } = await isAuthenticatedApiRoute(req, res);
 
+    console.log(parentId);
+
     if (!success) throw { statusCode: 401, message };
 
     if (parentId) {
-      //*todo: If we have a parentId, we need to find the comment we are referencing.
-      //*todo - We get the origin postId to update our comment with that postId
-      //*todo - so later, we can query all comments nested together from just one postId
+      //*todo: If we have a parentId, we need to get the postId from it
       const queryPostId = await prisma.comment.findUnique({
         where: {
           id: parentId,
@@ -29,7 +29,7 @@ export default async function handler(
         throw { statusCode: 404, message: "Could not find the origin post." };
       }
 
-      //* now that we have the postId, we need to update our comment with the postId
+      //todo: Now that we have the postId, we need to update our comment with the postId and also increment the replyCount by 1
       const commentOnComment = await prisma.comment.create({
         data: {
           channel,
@@ -51,10 +51,30 @@ export default async function handler(
           },
         },
       });
+
       if (!commentOnComment) {
         throw {
           statusCode: 500,
           message: "Unable to save the comment. Please try again later.",
+        };
+      }
+
+      const incrementParentCommentByOne = await prisma.comment.update({
+        where: {
+          id: parentId,
+        },
+        data: {
+          replyCount: {
+            increment: 1,
+          },
+        },
+      });
+
+      if (!incrementParentCommentByOne) {
+        throw {
+          statusCode: 500,
+          message:
+            "Unable to increment by 1 on the parent repliesCount property. Please try again later.",
         };
       }
     } else {
